@@ -4,7 +4,7 @@ from huggingface_hub import hf_hub_download, login
 import numpy as np  # Added to handle NumPy arrays
 
 # Log in using the token
-login(token="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")
+login(token="add tokn here")
 
 # Download the precomputed embeddings
 slide_feature_path = hf_hub_download(
